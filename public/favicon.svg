@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <defs>
+    <radialGradient id="gearGradient" cx="40%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#244d7d" />
+      <stop offset="50%" stop-color="#18375e" />
+      <stop offset="100%" stop-color="#0c223e" />
+    </radialGradient>
+    <filter id="dropGlow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000" flood-opacity="0.35" />
+    </filter>
+  </defs>
+
+  <!-- Outer Cogwheel Gear -->
+  <path d="M 231.9 45.8 L 236.5 4.4 L 263.5 4.4 L 268.1 45.8 A 205 205 0 0 1 311.4 54.4 L 311.4 54.4 L 331.5 17.9 L 356.5 28.2 L 344.9 68.3 A 205 205 0 0 1 381.6 92.8 L 381.6 92.8 L 414.1 66.8 L 433.2 85.9 L 407.2 118.4 A 205 205 0 0 1 431.7 155.1 L 431.7 155.1 L 471.8 143.5 L 482.1 168.5 L 445.6 188.6 A 205 205 0 0 1 454.2 231.9 L 454.2 231.9 L 495.6 236.5 L 495.6 263.5 L 454.2 268.1 A 205 205 0 0 1 445.6 311.4 L 445.6 311.4 L 482.1 331.5 L 471.8 356.5 L 431.7 344.9 A 205 205 0 0 1 407.2 381.6 L 407.2 381.6 L 433.2 414.1 L 414.1 433.2 L 381.6 407.2 A 205 205 0 0 1 344.9 431.7 L 344.9 431.7 L 356.5 471.8 L 331.5 482.1 L 311.4 445.6 A 205 205 0 0 1 268.1 454.2 L 268.1 454.2 L 263.5 495.6 L 236.5 495.6 L 231.9 454.2 A 205 205 0 0 1 188.6 445.6 L 188.6 445.6 L 168.5 482.1 L 143.5 471.8 L 155.1 431.7 A 205 205 0 0 1 118.4 407.2 L 118.4 407.2 L 85.9 433.2 L 66.8 414.1 L 92.8 381.6 A 205 205 0 0 1 68.3 344.9 L 68.3 344.9 L 28.2 356.5 L 17.9 331.5 L 54.4 311.4 A 205 205 0 0 1 45.8 268.1 L 45.8 268.1 L 4.4 263.5 L 4.4 236.5 L 45.8 231.9 A 205 205 0 0 1 54.4 188.6 L 54.4 188.6 L 17.9 168.5 L 28.2 143.5 L 68.3 155.1 A 205 205 0 0 1 92.8 118.4 L 92.8 118.4 L 66.8 85.9 L 85.9 66.8 L 118.4 92.8 A 205 205 0 0 1 155.1 68.3 L 155.1 68.3 L 143.5 28.2 L 168.5 17.9 L 188.6 54.4 A 205 205 0 0 1 231.9 45.8 Z" fill="url(#gearGradient)" stroke="#0b1d35" stroke-width="8" filter="url(#dropGlow)" />
+  
+  <!-- Inner Ring Border -->
+  <circle cx="250" cy="250" r="195" fill="none" stroke="#2c5a91" stroke-width="4" opacity="0.6" />
+
+  <!-- Top Helmet / Dome Outline -->
+  <!-- Helmet Dome Arc -->
+  <path d="M 100 270 C 100 130, 400 130, 400 270" fill="none" stroke="#ffffff" stroke-width="14" stroke-linecap="round" />
+  <!-- Helmet Brim Bar -->
+  <rect x="85" y="266" width="330" height="18" rx="9" fill="#ffffff" />
+
+  <!-- "SMK" Text inside helmet -->
+  <text x="250" y="246" 
+        font-family="Impact, Arial Black, Montserrat, sans-serif" 
+        font-weight="900" 
+        font-size="124" 
+        fill="#ffffff" 
+        text-anchor="middle" 
+        letter-spacing="2">SMK</text>
+
+  <!-- Horizontal Divider Bar -->
+  <rect x="82" y="296" width="336" height="15" rx="5" fill="#ffffff" />
+
+  <!-- "INDUSTRI" Text underneath -->
+  <text x="250" y="378" 
+        font-family="Impact, Arial Black, Montserrat, sans-serif" 
+        font-weight="900" 
+        font-size="68" 
+        fill="#ffffff" 
+        text-anchor="middle" 
+        letter-spacing="4">INDUSTRI</text>
+</svg>

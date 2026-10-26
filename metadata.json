@@ -1,0 +1,6 @@
+{
+  "name": "OptiSim Fiber Pro",
+  "description": "Simulator interaktif penyambungan fiber optik (fusion splicing) untuk pelatihan teknisi lapangan dengan panduan visual langkah demi langkah, visualisasi grafik OTDR, panel log tindakan teknisi real-time, penilaian akurasi sambungan, dan leaderboard performa teknisi.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

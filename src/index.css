@@ -1,0 +1,93 @@
+@import "tailwindcss";
+
+/* High-Contrast Field Night Mode (Ramah Mata & Kontras Tinggi untuk Lingkungan Minim Cahaya) */
+.theme-night-mode {
+  color-scheme: dark;
+}
+
+/* Transform slate-950 and deep blues to pure OLED pitch black */
+.theme-night-mode,
+.theme-night-mode.bg-slate-950,
+.theme-night-mode .bg-slate-950,
+.theme-night-mode .bg-slate-950\/95,
+.theme-night-mode .bg-slate-950\/90,
+.theme-night-mode .bg-slate-950\/80 {
+  background-color: #000000 !important;
+}
+
+/* Elevate surfaces with high-contrast distinct tone */
+.theme-night-mode .bg-slate-900,
+.theme-night-mode .bg-slate-900\/90,
+.theme-night-mode .bg-slate-900\/80 {
+  background-color: #0b0d12 !important;
+}
+
+.theme-night-mode .bg-slate-800,
+.theme-night-mode .bg-slate-800\/90,
+.theme-night-mode .bg-slate-800\/80,
+.theme-night-mode .bg-slate-800\/60 {
+  background-color: #151821 !important;
+}
+
+/* High contrast borders for crisp separation in dark field environments */
+.theme-night-mode .border-slate-800 {
+  border-color: #272c3a !important;
+}
+
+.theme-night-mode .border-slate-700 {
+  border-color: #3b4356 !important;
+}
+
+/* Eye-safe high-contrast text rendering */
+.theme-night-mode .text-slate-400 {
+  color: #a6b2c8 !important;
+}
+
+.theme-night-mode .text-slate-300 {
+  color: #e2e8f0 !important;
+}
+
+.theme-night-mode .text-slate-200 {
+  color: #f8fafc !important;
+}
+
+/* Specific Header & Footer adjustments in Night Mode */
+.theme-night-mode header {
+  background-color: #06070a !important;
+  border-bottom-color: #272c3a !important;
+}
+
+.theme-night-mode footer {
+  background-color: #06070a !important;
+  border-top-color: #272c3a !important;
+}
+
+/* Print Optimization for Official Assessment Certificate & Reports */
+@media print {
+  body {
+    background: #ffffff !important;
+    color: #000000 !important;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  header, 
+  footer, 
+  nav, 
+  #main-app-header, 
+  #main-app-footer, 
+  #step-navigation-bar,
+  #action-log-sidebar,
+  .print\\:hidden {
+    display: none !important;
+  }
+
+  #certificate-printable-card {
+    border: 2px solid #b48a3c !important;
+    box-shadow: none !important;
+    margin: 0 auto !important;
+    padding: 18mm !important;
+    page-break-after: avoid !important;
+    page-break-inside: avoid !important;
+  }
+}
